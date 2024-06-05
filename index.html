@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="My portofolio website">
+    <meta name="keywords" content="web design, html, css, js">
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+    <title>Portfolio</title>
+    <script type="module" crossorigin src="/first_portfolio/assets/index-BUjJmall.js"></script>
+    <link rel="stylesheet" crossorigin href="/first_portfolio/assets/index-BNKYQwSY.css">
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header__resume btn" href="https://tudorpuiucv.tiiny.site">Resume</a>
+          </li>
+        </ul>
+        <button aria-label="mobile nav button" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile-nav__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__btn btn" href="https://tudorpuiucv.tiiny.site">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+
+    <main>
+      <section class="hero container">
+        <img
+          class="hero__img"
+          src="/first_portfolio/assets/profile-picture-BotGb_KL.jpg"
+          alt="Profile picture"
+        />  
+        <h2 class="hero__subtitle">Hi, I'm Tudor Puiu</h2>
+        <h1 class="hero__title">WELCOME TO MY <br />PORTFOLIO</h1>
+        <p class="hero__description">
+          A passionate <strong>Frontend</strong> web developer enthusiast
+          specialized in building stunning websites.
+        </p>
+        <a class="hero__btn btn" href="#">Reach out</a>
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            Hey there! I'm Tudor, a passionate
+            <strong>Frontend Web Design</strong> developer. I specialize in
+            crafting immersive online experiences that blend creativity with
+            functionality. With expertise in HTML, CSS, JavaScript, and more, I
+            thrive on turning ideas into visually stunning and user-friendly
+            websites. Let's collaborate and create something extraordinary
+            together!
+          </p>
+          <p class="about__description">
+            What drives me is the opportunity to turn ideas into reality.
+            Whether it's a sleek and modern interface or a dynamic e-commerce
+            platform, I thrive on the challenge of bringing visions to fruition.
+            I believe that every pixel matters and pay meticulous attention to
+            detail to ensure that every aspect of a website aligns perfectly
+            with its purpose and audience.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">HTML</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">Vite</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">JavaScript</li>
+              <li class="about__list">TailwindCSS</li>
+              <li class="about__list">React</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          Explore my portfolio to see how I've leveraged
+          HTML, CSS, JavaScript, and various frameworks to bring ideas to life
+          and enhance online presence.
+        </p>
+        <div class="work__container">
+          <!-- Project 1 -->
+          <h3 class="work__project-title">Clothify</h3>
+          <div class="work__img-wrapper work__image1">
+            <img
+              class="project-photo"
+              src="/first_portfolio/assets/online-clothing-shop-BG0v9MyP.png"
+              alt="Online Car Shop website"
+            />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Clothify</h3>
+            <p class="work__project-description1">
+              Clothify website is an online platform that allows users to buy clothes.
+              The website provides an interface for shopping cart and buying clothes.
+            </p>
+            <a class="btn work__project-btn" target="_blank" href="https://ptudor069.github.io/Clothing-Store/">Website</a>
+            <a class="btn work__project-btn" target="_blank" href="https://github.com/pTudor069/Clothing-Store">Code</a>
+          </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          Whether you are interested in my work, or just want to say hi, my
+          inbox is always open so feel free to reach out and I will get back to
+          you as soon as possible.
+        </p>
+        <a
+          class="contact__btn btn"
+          href="mailto:puiutudor139@gmail.com"
+          target="_blank"
+        >
+          Reach out</a
+        >
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Tudor Puiu ~</h3>
+    </footer>
+  </body>
+</html>
